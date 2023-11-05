@@ -1,0 +1,105 @@
+.sf-header{
+  background-color: #1c3e57;
+  color: white;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.sf-button{
+  background-color: #1c3e57 !important;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration-color: white !important;
+  display: inline-block;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.sf-iconButton{
+  width: 200px;
+  height: 200px;
+}
+
+.sf-label{
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.sf-description{
+  object-fit: contain;
+}
+
+.sf-image{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.sf-imageContainer{
+  margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.sf-uploadFile{
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center;     /* Vertically center content */
+  width: 200px;
+  height: 200px;
+  background-color: #cbcdd2;
+  border-radius: 10px;
+}
+
+.sf-stack{
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center;  
+}
+
+.sf-box{
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sf-list-image-container{
+  justify-content: center;
+  object-fit: contain;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.sf-list-image{
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  padding-left: 70px;
+  padding-bottom: 20px;
+}
+
+.sf-drawer .sf-button{
+  align-self: center;
+  margin-top: 20px;
+}
+
+.sf-select{
+  background-color: whitesmoke;
+  top: -10px;
+  left: 50px;
+}
+
+.sf-dialog{
+  width: 300px;
+}
+
+.sf-file{
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+}
